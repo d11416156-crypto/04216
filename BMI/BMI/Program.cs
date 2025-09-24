@@ -15,5 +15,6 @@ class Program
         double bmi = weight / (height * height);
 
         Console.WriteLine($"您的 BMI 是：{bmi:F2}");
+        Console.Read();
     }
 }
